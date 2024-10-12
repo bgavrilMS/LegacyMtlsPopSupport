@@ -13,10 +13,4 @@
 		<PackageReference Include="Microsoft.Identity.ServiceEssentials.TokenAcquisitionIdWeb" Version="1.30.0" />
 		<PackageReference Include="Microsoft.Identity.Web.DownstreamApi" Version="3.2.2" />
 	</ItemGroup>
-
-	<ItemGroup>
-		<None Update="appsettings.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-	</ItemGroup>
 </Project>
